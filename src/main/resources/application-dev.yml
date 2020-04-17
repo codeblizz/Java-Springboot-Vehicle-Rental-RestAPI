@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: mongodb
+    url: mongodb+srv://admin:admin@vehicle-rentals-nufol.mongodb.net/test?retryWrites=true&w=majority
+    username: admin
+    password: admin
+  application:
+    name: Java Spring Boot RestAPI with MongoDB
